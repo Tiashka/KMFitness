@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/1c2f3960c8.js" crossorigin="anonymous"></script>
 <style>
     body,
     h1,
@@ -33,6 +34,34 @@
 
     .w3-bar .w3-button {
         padding: 16px;
+    }
+
+    .parallax1 {
+        /* The image used */
+        background-image: url("images/girlLifting.jpg");
+
+        /* Set a specific height */
+        min-height: 500px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parallax2 {
+        /* The image used */
+        background-image: url("images/manLifting.jpg");
+
+        /* Set a specific height */
+        min-height: 500px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 </style>
 
@@ -98,32 +127,48 @@
         <p class="w3-center w3-large">Key features of our company</p>
         <div class="w3-row-padding w3-center" style="margin-top:64px">
             <div class="w3-third">
-                <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
-                <p class="w3-large">Passion</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore.</p>
-            </div>
-            <div class="w3-third">
-                <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+                <i class="fas fa-fire-alt w3-margin-bottom w3-jumbo"></i>
                 <p class="w3-large">Dedication</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore.</p>
             </div>
+            <div class="w3-third">
+                <i class="fas fa-dumbbell w3-margin-bottom w3-jumbo w3-center"></i>
+                <p class="w3-large">Passion</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore.</p>
+            </div>
+
             <div class="w3-third">
                 <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
                 <p class="w3-large">Obsession</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore.</p>
             </div>
-
         </div>
     </div>
+    <div class="parallax1"></div>
+    <div class="w3-container" style="padding:70px 16px" id="about">
+        <h2 class="w3-center">What we offer</h2>
+        <div class=" w3-center">
+            <p class="w3-large">Training and nutrition plans which are tailored to your specific training and nutrition
+                goals, helping you stay on track and meet your targets.</p>
+            <p class="w3-large">Detailed meal planning outlining calories and portion sizes, including quick easy
+                recipes, we all know the hardest part of eating healthy is deciding what to eat.</p>
+            <p class="w3-large">Custom training plans on a week by week providing you with the blueprint to achieve that
+                ideal body youve always wanted.
+            </p>
+            <p class="w3-large">One on one advice and guidance whenever its required, sometimes we all need that push
+                when we feel that plateau.</p>
+        </div>
+    </div>
+    <div class="parallax1"></div>
 
     <!-- Promo Section - "We know design" -->
     <div class="w3-container w3-light-grey" style="padding:128px 16px">
         <div class="w3-row-padding">
             <div class="w3-col m6">
-                <h3>We know design.</h3>
+                <h3>We know fitness.</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut
                     labore et dolore.</p>
                 <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
@@ -134,7 +179,7 @@
             </div>
         </div>
     </div>
-
+    <div class="parallax2"></div>
     <!-- Team Section -->
     <div class="w3-container" style="padding:128px 16px" id="team">
         <h3 class="w3-center">THE TEAM</h3>
