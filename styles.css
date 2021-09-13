@@ -21,7 +21,12 @@ html {
     background-image: url("images/manBroadArms.jpg");
     min-height: 100%;
 }
-
+.bgimg-2 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("images/deadlift.jpeg");
+    min-height: 100%;
+}
 .w3-bar .w3-button {
     padding: 16px;
 }
@@ -52,4 +57,10 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.middle{
+    width:50%;
+    margin: auto;
+    background-color: white;
 }

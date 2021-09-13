@@ -9,8 +9,9 @@
 <body>
 <?php include("header.php");?>
 
-    <!-- Contact Section -->
-    <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+ <!-- Contact Section -->
+ <div class="w3-container w3-light-grey" style="padding-top:70px" id="contact">
+     <div class="w3-card-4 middle">
         <h3 class="w3-center">CONTACT</h3>
         <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
         <div style="margin-top:48px">
@@ -29,13 +30,11 @@
                     </button>
                 </p>
             </form>
-            <!-- Image of location/map -->
-            <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
         </div>
     </div>
+</div>
 
-    <?php include("footer.php");?>
-
+<?php include("footer.php");?>
     <script src="scripts.js"></script>
 
 </body>
