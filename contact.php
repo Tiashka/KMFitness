@@ -75,10 +75,10 @@
             <!-- Right-sided navbar links -->
             <div class="w3-right w3-hide-small">
                 <a href="index.html" class="w3-bar-item w3-button">ABOUT</a>
-                <a href="#merch" class="w3-bar-item w3-button"><i class="fa fa-user"></i> MERCH</a>
-                <a href="#signUp" class="w3-bar-item w3-button"><i class="fa fa-th"></i> SIGN UP</a>
-                <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
-                <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+                <a href="#merch" class="w3-bar-item w3-button"> MERCH</a>
+                <a href="#signUp" class="w3-bar-item w3-button"> SIGN UP</a>
+                <a href="#pricing" class="w3-bar-item w3-button"> PRICING</a>
+                <a href="#contact" class="w3-bar-item w3-button"> CONTACT</a>
             </div>
             <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
