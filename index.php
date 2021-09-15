@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="styles.css">
 
 <body>
-    <?php include("header.php");?>
+    <?php include("components/header.php");?>
 
     <!-- Header with full-height image -->
     <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
@@ -307,7 +307,7 @@
     </div>
 
 
-    <?php include("footer.php");?>
+    <?php include("components/footer.php");?>
 
     <script src="scripts.js"></script>
 

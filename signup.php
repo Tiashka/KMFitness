@@ -7,7 +7,7 @@
 
 
 <body>
-<?php include("header.php");?>
+<?php include("components/header.php");?>
 
  <!-- Contact Section -->
  <div class="w3-container w3-light-grey" style="padding-top:70px" id="contact">
@@ -34,7 +34,7 @@
     </div>
 </div>
 
-<?php include("footer.php");?>
+<?php include("components/footer.php");?>
     <script src="scripts.js"></script>
 
 </body>
