@@ -22,3 +22,17 @@ function w3_open() {
 function w3_close() {
     mySidebar.style.display = "none";
 }
+
+function sendEmail() {
+    Email.send({
+        Host: "smtp.gmail.com",
+        Username: "admin@kmfitness.co.za",
+        Password: "KapilM2201!",
+        To: 'kapil.m@kmfitness.co.za',
+        From: "mail.kmfitness.co.za",
+        Subject: "test",
+        Body: "<email body>",
+    }).then(
+        message => alert("mail sent successfully")
+    );
+}
