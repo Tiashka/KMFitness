@@ -48,9 +48,9 @@ emailjs.init("user_zcFz0TN8FHopcJcF0YoYz");
                 <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="user_email"></p>
                 <p><input class="w3-input w3-border" type="text" placeholder="Contact Number" required name="contact_number"></p>
                 <!-- <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p> -->
-                <p><textarea name="message"></textarea></p>
+                <p><textarea class="w3-input w3-border" placeholder="Message" required name="message"></textarea></p>
                 <p>
-                <input type="reset" value="reset" id="reset">
+                <input type="reset" style="display:none" value="reset" id="reset">
                 <!-- <button class="w3-button w3-black" onclick="sendEmail()" type="submit"> -->
                 <button class="w3-button w3-black" type="submit">
                         <i class="fa fa-paper-plane"></i> SEND MESSAGE
