@@ -24,7 +24,6 @@
                 <a href="index.php" class="w3-bar-item w3-button">ABOUT</a>
                 <a href="#merch" class="w3-bar-item w3-button">MERCH</a>
                 <a href="signup.php" class="w3-bar-item w3-button"> SIGN UP</a>
-                <a href="#pricing" class="w3-bar-item w3-button"> PRICING</a>
                 <a href="contact.php" class="w3-bar-item w3-button"> CONTACT</a>
             </div>
             <!-- Hide right-floated links on small screens and replace them with a menu icon -->

@@ -14,19 +14,23 @@ html {
     line-height: 1.8;
 }
 
+
 /* Full height image header */
+
 .bgimg-1 {
     background-position: center;
     background-size: cover;
     background-image: url("images/manBroadArms.jpg");
     min-height: 100%;
 }
+
 .bgimg-2 {
     background-position: center;
     background-size: cover;
     background-image: url("images/deadlift.jpeg");
     min-height: 100%;
 }
+
 .w3-bar .w3-button {
     padding: 16px;
 }
@@ -34,10 +38,8 @@ html {
 .parallax1 {
     /* The image used */
     background-image: url("images/girlLifting.jpg");
-
     /* Set a specific height */
     min-height: 500px;
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -48,10 +50,8 @@ html {
 .parallax2 {
     /* The image used */
     background-image: url("images/manLifting.jpg");
-
     /* Set a specific height */
     min-height: 500px;
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -59,31 +59,40 @@ html {
     background-size: cover;
 }
 
-.middle{
-    width:50%;
+.middle {
+    width: 50%;
     margin: auto;
     background-color: white;
 }
+
 .contactContainer {
     /* position: relative;
     text-align: center;
     color: white; */
-     /* The image used */
-     background-image: url("images/concrete-wallpapers.jpg");
+    /* The image used */
+    background-image: url("images/concrete-wallpapers.jpg");
+    /* Set a specific height */
+    min-height: 300px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-     /* Set a specific height */
-     min-height: 300px;
- 
-     /* Create the parallax scrolling effect */
-     background-attachment: fixed;
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-  }
-  /* Centered text */
+
+/* Centered text */
+
+
 /* .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   } */
+
+.list {
+    padding: 20px;
+    margin: auto;
+    width: 70%;
+}

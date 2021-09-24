@@ -33,7 +33,7 @@ emailjs.init("user_zcFz0TN8FHopcJcF0YoYz");
 <?php include("components/header.php");?>
 
 <div class="contactContainer"></div>
-
+<br>
     <!-- Contact Section -->
     <div class="w3-container w3-center w3-light-grey" style="margin:auto;width:50%;padding:58px 16px" id="contact">
         <h3 class="w3-center">CONTACT</h3>

@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styles.css">
+<script src="https://kit.fontawesome.com/1c2f3960c8.js" crossorigin="anonymous"></script>
 
 <body>
     <?php include("components/header.php");?>
@@ -13,62 +14,75 @@
         <div class="w3-display-left w3-text-white" style="padding:48px">
             <span class="w3-jumbo w3-hide-small">KM Health and Fitness</span><br>
             <span class="w3-xxlarge w3-hide-large w3-hide-medium">KM Health and Fitness</span><br>
-            <span class="w3-large">Stop wasting valuable time with projects that just isn't you.</span>
+            <span class="w3-large">Stop waiting around for the right time, start today.</span>
             <p><a href="#about"
-                    class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn
-                    more and start today</a></p>
+                    class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Sign up here</a></p>
         </div>
         <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
             <i class="fa fa-facebook-official w3-hover-opacity"></i>
             <i class="fa fa-instagram w3-hover-opacity"></i>
-            <i class="fa fa-snapchat w3-hover-opacity"></i>
-            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-            <i class="fa fa-twitter w3-hover-opacity"></i>
             <i class="fa fa-linkedin w3-hover-opacity"></i>
         </div>
     </header>
     <div class="parallax1"></div>
 
     <!-- About Section -->
-    <div class="w3-container" style="padding:70px 16px" id="about">
-        <h3 class="w3-center">ABOUT THE COMPANY</h3>
+    <div class="w3-container" style="padding:60px 16px" id="about">
+    <div  style="margin:auto;width:50%;">
+        <h3 class="w3-center">ABOUT ME</h3>
+
+        <p>Training for six years, i have learnt all the tools of the trade, i learnt what works 
+        and what doesn't so you dont have to. On top of that being a qualified sports nutritionist means i have the knowledge
+         and understanding of the bodies intricacies and how to leverage it to see those results and break through plateus. 
+        </p>
+    </div>
+    <h3 class="w3-center" style="padding:60px 16px 0px 0px">ABOUT US</h3>
         <p class="w3-center w3-large">Key principles of our company</p>
         <div class="w3-row-padding w3-center" style="margin-top:64px">
             <div class="w3-third">
                 <i class="fas fa-fire-alt w3-margin-bottom w3-jumbo"></i>
                 <p class="w3-large">Dedication</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore.</p>
+                <p>KM Fitness is committed to helping you achieve your fitness goals. Whether you're just 
+                    looking to get in shape or looking to train hard. We dont give up.
+                </p>
             </div>
             <div class="w3-third">
                 <i class="fas fa-dumbbell w3-margin-bottom w3-jumbo w3-center"></i>
                 <p class="w3-large">Passion</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore.</p>
+                <p>The biggest factor contributing to your fitness is your mind. Maintaining a passion for 
+                    fitness and nutrition is what will help you stay committed and see those long term results.</p>
             </div>
 
             <div class="w3-third">
                 <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
                 <p class="w3-large">Obsession</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore.</p>
+                <p>Here we are obssessed fitness. There are no shortcuts, we power through, we get those results.
+                     You can do anything you set your mind to.
+                </p>
             </div>
         </div>
     </div>
-    <div class="w3-container" style="padding:70px 16px" id="about">
+    <div class="w3-container" style="margin-top:64px" id="about">
         <h2 class="w3-center">What we offer</h2>
         <div class=" w3-center">
-            <p class="w3-large">Training and nutrition plans which are tailored to your specific training and nutrition
-                goals, helping you stay on track and meet your targets.</p>
-            <p class="w3-large">Detailed meal planning outlining calories and portion sizes, including quick easy
-                recipes, we all know the hardest part of eating healthy is deciding what to eat.</p>
-            <p class="w3-large">Custom training plans on a week by week providing you with the blueprint to achieve that
-                ideal body youve always wanted.
-            </p>
-            <p class="w3-large">One on one advice and guidance whenever its required, sometimes we all need that push
-                when we feel that plateau.</p>
+
+            <div class="list ">
+                <p class="w3-large">Training and nutrition plans.<br> Which are tailored to your specific training and nutrition
+                    goals.</p>
+            </div>
+           <div class="list ">
+                 <p class="w3-large">Detailed meal planning.<br> Outlining calories and portion sizes, including quick easy
+                recipes.</p>
+            </div>
+            <div class="list ">
+                <p class="w3-large">Custom training plans.<br> A week by week providing you with the blueprint to achieve your goals.
+                </p>
+            </div>
+            <div class="list">
+            <p class="w3-large">One on one advice and guidance whenever its required.</p>
+            </div>
             <br>
-            <p>All at an affordable cost.</p>
+          
         </div>
     </div>
     <div class="parallax1"></div>
