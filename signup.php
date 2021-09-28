@@ -10,7 +10,7 @@
 <?php include("components/header.php");?>
 
  <!-- Contact Section -->
- <div class="w3-container w3-light-grey" style="padding-top:70px" id="contact">
+ <!-- <div class="w3-container w3-light-grey" style="padding-top:70px" id="contact">
      <div class="w3-card-4 middle">
         <h3 class="w3-center">CONTACT</h3>
         <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
@@ -32,8 +32,10 @@
             </form>
         </div>
     </div>
+</div> -->
+<div class="w3-container w3-light-grey" style="padding-top:70px" id="contact">
+<h1> the google form goes here </h1>
 </div>
-
 <?php include("components/footer.php");?>
     <script src="scripts.js"></script>
 
