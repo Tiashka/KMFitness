@@ -95,9 +95,11 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.w3-section{margin-top:16px!important;margin-bottom:16px!important;margin-left:64px;margin-right:64px;}
 
-.formPadding {
-    margin-left:64px;margin-right:64px;
+.formContainer{
+    background-image: url("images/concrete-wallpapers.jpg");
+
 }
 /* Centered text */
 
@@ -126,3 +128,4 @@ html {
     color: white;
 }
 .w3-textarea{padding:8px;display:block;border:1px solid #ccc;width:100%}
+.w3-input{padding:8px;display:block;border:1px solid #ccc;width:100%}
