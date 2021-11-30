@@ -30,7 +30,12 @@ html {
     background-image: url("images/deadlift.jpeg");
     min-height: 100%;
 }
-
+.bgimg-mini {
+    background-position: center;
+    background-size: cover;
+    background-image: url("images/deadlift.jpeg");
+    min-height: 50%;
+}
 .w3-bar .w3-button {
     padding: 16px;
 }
@@ -52,6 +57,17 @@ html {
     background-image: url("images/manLifting.jpg");
     /* Set a specific height */
     min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallaxMini {
+    /* The image used */
+    background-image: url("images/girlLifting.jpg");
+    /* Set a specific height */
+    min-height: 300px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -80,7 +96,9 @@ html {
     background-size: cover;
 }
 
-
+.formPadding {
+    margin-left:64px;margin-right:64px;
+}
 /* Centered text */
 
 
@@ -107,3 +125,4 @@ html {
     background-color: #BCBCBC;
     color: white;
 }
+.w3-textarea{padding:8px;display:block;border:1px solid #ccc;width:100%}
