@@ -102,6 +102,13 @@ html {
     padding-bottom:40px;
     padding-top:40px;
 }
+.contactContainer{
+    background-image: url("images/concrete-wallpapers.jpg");
+    padding-bottom:40px;
+    padding-top:40px;
+    margin-top:-30px;
+    margin-bottom:-30px;
+}
 /* Centered text */
 
 

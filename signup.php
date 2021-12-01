@@ -42,8 +42,9 @@ emailjs.init("user_zcFz0TN8FHopcJcF0YoYz");
 </header>
 
 
-<div class="w3-container formContainer " id="about">
-<form class=" w3-card-4" id="signupForm" style="margin:auto;width:90%;padding:5%;background-color:white;" method="post" action="signup.php">
+<div class=" contactContainer " id="about">
+    <div style="margin-top:30px;margin-bottom:30px">
+<form class=" w3-card-4" id="signupForm" style="margin:auto;width:90%;padding:1% 5%;background-color:white;" method="post" action="signup.php">
 <h2 class="w3-center">Personal Information</h2>
  
 <div class="w3-section">      
@@ -127,6 +128,7 @@ emailjs.init("user_zcFz0TN8FHopcJcF0YoYz");
 <p class="w3-center" id="submission"></p>
 
 </form>
+    </div>
     </div>
 
 

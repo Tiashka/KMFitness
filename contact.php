@@ -41,7 +41,8 @@ emailjs.init("user_zcFz0TN8FHopcJcF0YoYz");
 </header>
 <br>
     <!-- Contact Section -->
-    <div class="w3-container w3-center w3-light-grey" style="margin:auto;width:50%;padding:58px 16px" id="contact">
+    <div class="contactContainer">
+    <div class="w3-container w3-center" style="margin:auto;width:85%;padding:5% 2%;background-color:white;" id="contact">
         <h3 class="w3-center">CONTACT</h3>
         <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
         <div style="margin-top:48px">
@@ -66,6 +67,7 @@ emailjs.init("user_zcFz0TN8FHopcJcF0YoYz");
             </form>
         
         </div>
+    </div>
     </div>
     <br/>
     <?php include("components/footer.php");?>
