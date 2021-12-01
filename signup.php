@@ -4,7 +4,30 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styles.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
+<script type="text/javascript">
+(function() {
+emailjs.init("user_zcFz0TN8FHopcJcF0YoYz");
+})();
+</script>
+<script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('signupForm').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // these IDs from the previous steps
+                document.getElementById('submission').innerHTML="Form submitted successfully";
+                emailjs.sendForm('contact_service', 'signup_form', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                        document.getElementById('reset').click();
+
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
 
 <body>
 <?php include("components/header.php");?>
@@ -19,7 +42,7 @@
 
 
 <div class="w3-container formContainer" id="about">
-<form class="w3-twothird w3-card-4" style="margin-left:15%;margin-right:15%;background-color:white;margin-top:64px;margin-bottom:64px;" method="post" action="signup.php">
+<form class="w3-twothird w3-card-4" id="signupForm" style="margin-left:15%;margin-right:15%;background-color:white;margin-top:64px;margin-bottom:64px;" method="post" action="signup.php">
 <h2 class="w3-center">Personal Information</h2>
  
 <div class="w3-section">      
@@ -37,10 +60,10 @@
   <div class="w3-half" style="margin-left:10%;">
       <label>What is your fitness goal?</label>
     <br>
-        <input id="training" name="training" value="yes" class="w3-check" type="checkbox">
+        <input id="training" name="training" value="training" class="w3-check" type="checkbox">
         <label>Training</label>
         <br>
-        <input id="Nutrition" name="nutrition" value="yes" class="w3-check" type="checkbox">
+        <input id="Nutrition" name="nutrition" value="nutrition" class="w3-check" type="checkbox">
         <label>Nutrition</label>
         <br><br>
   </div>
@@ -63,7 +86,7 @@
       <label>Current Weight: </label>
 </div>
 <div style="float:left">
-      <input class="w3-input" style="width:40%" type="number" name="currentWeight" >
+      <input class="w3-input" style="width:40%" type="number" name="currentWeight" required >
 </div>
 
         <br><br>
@@ -82,7 +105,7 @@
   </div>
   <div class="w3-section" >      
   <label>Do you have any specific outcomes you wish to achieve? (wider shoulders, slimmer waist, improved strength).</label>
-    <textarea class="w3-textarea" rows="2" name="specificFitness" ></textarea>
+    <textarea class="w3-textarea" rows="2" name="specificOutcomes" ></textarea>
   </div> 
 
 
@@ -99,26 +122,58 @@
 <label>Are there any dietary requirements you have?</label>
   <textarea class="w3-textarea" rows="2" name="dietaryReq" ></textarea>
 </div> 
-  <button type="submit" class="w3-button" name="submit">Submit</button>
-  
+<input type="reset" style="display:none" value="reset" id="reset">
+<div style="width: 100%;justify-content:center;margin-left:45%">
+  <button type="submit" class="w3-button" name="submit" style="  display: flex;justify-content: center;align-items: center;font-size:18px;">Submit</button>
+</div>
+<p class="w3-center" id="submission"></p>
+
 <?php
 if(isset($_POST['submit']))
 {
     $name=$_POST['name'];
     $email=$_POST['email'];
+    $currentWeight=$_POST['currentWeight'];
     if (isset($_POST['training'])) {
-        $training = "yes";
+        $training = $_POST['training'];
       } else {
         $training = "no";
       }
       if (isset($_POST['nutrition'])) {
-        $nutrition = "yes";
+        $nutrition = $_POST['nutrition'];
       } else {
         $nutrition = "no";
       }
-  
- 
-    echo "name ",$name, " email ",$email, " training ", $training," nutrition ",$nutrition;
+      if (isset($_POST['specificFitness'])) {
+        $specificFitness = $_POST['specificFitness'];
+      } else {
+        $specificFitness = "no";
+      }
+      if (isset($_POST['healthIssues'])) {
+        $healthIssues = $_POST['healthIssues'];
+      } else {
+        $healthIssues = "no";
+      }
+      if (isset($_POST['goalWeight'])) {
+        $goalWeight = $_POST['goalWeight'];
+      } else {
+        $goalWeight = "no";
+      }
+      if (isset($_POST['specificOutcomes'])) {
+        $specificOutcomes = $_POST['specificOutcomes'];
+      } else {
+        $specificOutcomes = "no";
+      }
+      if (isset($_POST['equipment'])) {
+        $equipment = $_POST['equipment'];
+      } else {
+        $equipment = "no";
+      }
+      if (isset($_POST['dietaryReq'])) {
+        $dietaryReq = $_POST['dietaryReq'];
+      } else {
+        $dietaryReq = "no";
+      }
 }
 ?>
 
