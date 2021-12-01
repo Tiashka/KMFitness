@@ -95,11 +95,12 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.w3-section{margin-top:16px!important;margin-bottom:16px!important;margin-left:64px;margin-right:64px;}
+.w3-section{margin-top:16px!important;margin-bottom:16px!important;}
 
 .formContainer{
     background-image: url("images/concrete-wallpapers.jpg");
-
+    padding-bottom:40px;
+    padding-top:40px;
 }
 /* Centered text */
 

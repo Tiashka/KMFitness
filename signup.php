@@ -19,13 +19,12 @@ emailjs.init("user_zcFz0TN8FHopcJcF0YoYz");
                 document.getElementById("loader").style.display = "initial";
                 emailjs.sendForm('contact_service', 'signup_form', this)
                     .then(function() {
-                        console.log('SUCCESS!');
                         document.getElementById('reset').click();
                         document.getElementById("loader").style.display = "none";
                         document.getElementById('submission').innerHTML="Form submitted successfully";
 
                     }, function(error) {
-                        console.log('FAILED...', error);
+                        document.getElementById('submission').innerHTML="Unable to submit form, please try again later.";
                     });
             });
         }
@@ -36,25 +35,25 @@ emailjs.init("user_zcFz0TN8FHopcJcF0YoYz");
 
 <header class="bgimg-mini w3-display-container w3-grayscale-min" id="home">
         <div class="w3-display-left w3-text-white" style="padding:48px">
-            <span class="w3-jumbo w3-hide-small">KM Health and Fitness</span><br>
-            <span class="w3-xxlarge w3-hide-large w3-hide-medium">KM Health and Fitness</span><br>
+            <span class="w3-jumbo w3-hide-small">Sign Up</span><br>
+            <span class="w3-xxlarge w3-hide-large w3-hide-medium">Sign Up</span><br>
             <span class="w3-large">This form is a means for me to get to know more about you and your fitness goals. Let's get started!</span>
         </div>
 </header>
 
 
-<div class="w3-container formContainer" id="about">
-<form class="w3-twothird w3-card-4" id="signupForm" style="margin-left:15%;margin-right:15%;background-color:white;margin-top:64px;margin-bottom:64px;" method="post" action="signup.php">
+<div class="w3-container formContainer " id="about">
+<form class=" w3-card-4" id="signupForm" style="margin:auto;width:90%;padding:5%;background-color:white;" method="post" action="signup.php">
 <h2 class="w3-center">Personal Information</h2>
  
 <div class="w3-section">      
   <label >Name</label>
-    <input class="w3-input" type="text" name="name" required>
+    <input class="w3-input" type="text" name="name" placeholder="John Doe" required>
   </div>
  
   <div class="w3-section">      
   <label>Email</label>
-    <input class="w3-input" type="text" name="email" required>
+    <input class="w3-input" type="text" name="email" placeholder="john.doe@email.com" required>
   </div>
 
   <div class="w3-row w3-section">
@@ -71,14 +70,9 @@ emailjs.init("user_zcFz0TN8FHopcJcF0YoYz");
   </div>
 </div>
 
-  <div class="w3-section" >      
-  <label>Do you have any specific fitness goal?</label>
-    <textarea class="w3-textarea" rows="2" name="specificFitness" ></textarea>
-  </div> 
-
   <div class="w3-section">      
   <label>Do you have any health problems / injuries currently?</label>
-    <input class="w3-input" type="text" name="healthIssues">
+    <input class="w3-input" type="text" name="healthIssues" placeholder="e.g. diabetes / sprained ankle.">
   </div>
 
 
@@ -106,23 +100,23 @@ emailjs.init("user_zcFz0TN8FHopcJcF0YoYz");
   </div>
   </div>
   <div class="w3-section" >      
-  <label>Do you have any specific outcomes you wish to achieve? (wider shoulders, slimmer waist, improved strength).</label>
-    <textarea class="w3-textarea" rows="2" name="specificOutcomes" ></textarea>
+  <label>Do you have any specific outcomes you wish to achieve? </label>
+    <textarea class="w3-textarea" rows="2" name="specificOutcomes" placeholder="e.g wider shoulders, slimmer waist, improved strength." ></textarea>
   </div> 
 
 
   <h2 class="w3-center">Training</h2>
 
   <div class="w3-section" >      
-  <label>Can i get a brief overview of the equipment you have access to. (weights, gym membership, yoga mat).</label>
-    <textarea class="w3-textarea" rows="2" name="equipment" ></textarea>
+  <label>Can i get a brief overview of the equipment you have access to. </label>
+    <textarea class="w3-textarea" rows="2" name="equipment" placeholder="e.g. weights, gym membership, yoga mat." ></textarea>
   </div> 
 
   <h2 class="w3-center">Nutrition</h2>
 
 <div class="w3-section" >      
 <label>Are there any dietary requirements you have?</label>
-  <textarea class="w3-textarea" rows="2" name="dietaryReq" ></textarea>
+  <textarea class="w3-textarea" rows="2" name="dietaryReq" placeholder="e.g gluten free / lactose intolerant."></textarea>
 </div> 
 <div style="width: 100%;justify-content:center;display:flex;margin-top:15px;margin-bottom:15px;">
 <button type="reset" class="w3-button" value="reset" id="reset" style="float:left;margin-left:-15px;margin-right:15px;s">Clear</button>

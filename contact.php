@@ -23,7 +23,7 @@ emailjs.init("user_zcFz0TN8FHopcJcF0YoYz");
                         document.getElementById('reset').click();
 
                     }, function(error) {
-                        console.log('FAILED...', error);
+                        document.getElementById('submission').innerHTML="Unable to submit message, please try again later.";
                     });
             });
         }
@@ -32,7 +32,13 @@ emailjs.init("user_zcFz0TN8FHopcJcF0YoYz");
 <body>
 <?php include("components/header.php");?>
 
-<div class="contactContainer"></div>
+<header class="bgimg-mini w3-display-container w3-grayscale-min" id="home">
+        <div class="w3-display-left w3-text-white" style="padding:48px">
+            <span class="w3-jumbo w3-hide-small">Contact Us</span><br>
+            <span class="w3-xxlarge w3-hide-large w3-hide-medium">Contact Us</span><br>
+            <span class="w3-large">Lets get in touch!</span>
+        </div>
+</header>
 <br>
     <!-- Contact Section -->
     <div class="w3-container w3-center w3-light-grey" style="margin:auto;width:50%;padding:58px 16px" id="contact">
