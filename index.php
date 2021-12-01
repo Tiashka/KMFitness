@@ -30,13 +30,19 @@
     <div class="w3-container" style="padding:60px 16px" id="about">
     <div  style="margin:auto;width:50%;">
         <h3 class="w3-center">ABOUT ME</h3>
-
-        <p>Training for six years, i have learnt all the tools of the trade, i learnt what works 
-        and what doesn't so you dont have to. On top of that being a qualified sports nutritionist means i have the knowledge
-         and understanding of the bodies intricacies and how to leverage it to see those results and break through plateus. 
-        </p>
+        <div style="display:flex;justify-content:center">
+            <div style="float:left">
+                <img src="images/IMG_3277.JPG" style="width:200px;height:250px;margin-right:20px"/>
+            </div>
+            <div style="float:left;padding-top:8%">
+                <p>Training for six years, i have learnt all the tools of the trade, i learnt what works 
+                and what doesn't so you dont have to. On top of that being a qualified sports nutritionist means i have the knowledge
+                and understanding of the bodies intricacies and how to leverage it to see those results and break through plateaus. 
+                </p>
+            </div>
+        </div>
     </div>
-    <h3 class="w3-center" style="padding:60px 16px 0px 0px">ABOUT US</h3>
+    <h3 class="w3-center" style="fpadding:60px 16px 0px 0px">ABOUT US</h3>
         <p class="w3-center w3-large">Key principles of our company</p>
         <div class="w3-row-padding w3-center" style="margin-top:64px">
             <div class="w3-third">
