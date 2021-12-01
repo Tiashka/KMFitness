@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <title>KM Fitness</title>
+<head>
+<link rel="icon" href="../images/KMHLogo.png">
+</head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">

@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="images/KMHLogo.png">
+
 <script src="scripts.js"></script>
 <body>
 <?php include("components/header.php");?>

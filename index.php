@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styles.css">
 <script src="https://kit.fontawesome.com/1c2f3960c8.js" crossorigin="anonymous"></script>
+<link rel="icon" href="images/KMHLogo.png">
 
 <body>
     <?php include("components/header.php");?>
