@@ -16,11 +16,13 @@ emailjs.init("user_zcFz0TN8FHopcJcF0YoYz");
             document.getElementById('signupForm').addEventListener('submit', function(event) {
                 event.preventDefault();
                 // these IDs from the previous steps
-                document.getElementById('submission').innerHTML="Form submitted successfully";
+                document.getElementById("loader").style.display = "initial";
                 emailjs.sendForm('contact_service', 'signup_form', this)
                     .then(function() {
                         console.log('SUCCESS!');
                         document.getElementById('reset').click();
+                        document.getElementById("loader").style.display = "none";
+                        document.getElementById('submission').innerHTML="Form submitted successfully";
 
                     }, function(error) {
                         console.log('FAILED...', error);
@@ -122,60 +124,13 @@ emailjs.init("user_zcFz0TN8FHopcJcF0YoYz");
 <label>Are there any dietary requirements you have?</label>
   <textarea class="w3-textarea" rows="2" name="dietaryReq" ></textarea>
 </div> 
-<input type="reset" style="display:none" value="reset" id="reset">
-<div style="width: 100%;justify-content:center;margin-left:45%">
-  <button type="submit" class="w3-button" name="submit" style="  display: flex;justify-content: center;align-items: center;font-size:18px;">Submit</button>
+<div style="width: 100%;justify-content:center;display:flex;margin-top:15px;margin-bottom:15px;">
+<button type="reset" class="w3-button" value="reset" id="reset" style="float:left;margin-left:-15px;margin-right:15px;s">Clear</button>
+  <button type="submit" class="w3-button w3-black" name="submit" style="  display: flex;float:left;justify-content: center;align-items: center;font-size:18px;">Submit</button>
+  <img src="images/loading-buffering.gif" id="loader" style="display:none;float:left;height:25px;width:25px;margin-left:15px;margin-top:10px"/>
+
 </div>
 <p class="w3-center" id="submission"></p>
-
-<?php
-if(isset($_POST['submit']))
-{
-    $name=$_POST['name'];
-    $email=$_POST['email'];
-    $currentWeight=$_POST['currentWeight'];
-    if (isset($_POST['training'])) {
-        $training = $_POST['training'];
-      } else {
-        $training = "no";
-      }
-      if (isset($_POST['nutrition'])) {
-        $nutrition = $_POST['nutrition'];
-      } else {
-        $nutrition = "no";
-      }
-      if (isset($_POST['specificFitness'])) {
-        $specificFitness = $_POST['specificFitness'];
-      } else {
-        $specificFitness = "no";
-      }
-      if (isset($_POST['healthIssues'])) {
-        $healthIssues = $_POST['healthIssues'];
-      } else {
-        $healthIssues = "no";
-      }
-      if (isset($_POST['goalWeight'])) {
-        $goalWeight = $_POST['goalWeight'];
-      } else {
-        $goalWeight = "no";
-      }
-      if (isset($_POST['specificOutcomes'])) {
-        $specificOutcomes = $_POST['specificOutcomes'];
-      } else {
-        $specificOutcomes = "no";
-      }
-      if (isset($_POST['equipment'])) {
-        $equipment = $_POST['equipment'];
-      } else {
-        $equipment = "no";
-      }
-      if (isset($_POST['dietaryReq'])) {
-        $dietaryReq = $_POST['dietaryReq'];
-      } else {
-        $dietaryReq = "no";
-      }
-}
-?>
 
 </form>
     </div>
