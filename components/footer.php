@@ -12,7 +12,7 @@
         <div class="w3-xlarge w3-section">
             <i class="fa fa-facebook-official w3-hover-opacity"></i>
             <i class="fa fa-instagram w3-hover-opacity"></i>
-            <i class="fa fa-linkedin w3-hover-opacity"></i>
+            <a href="https://www.linkedin.com/in/kapil-maharaj-742a64218/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
         </div>
         Dedication, Passion, Obsession.
     </footer>

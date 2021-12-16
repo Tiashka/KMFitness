@@ -25,7 +25,7 @@
             <!-- Right-sided navbar links -->
             <div class="w3-right w3-hide-small">
                 <a href="index.php" class="w3-bar-item w3-button">ABOUT</a>
-                <a href="merch.php" class="w3-bar-item w3-button">MERCH</a>
+                <!-- <a href="merch.php" class="w3-bar-item w3-button">MERCH</a> -->
                 <a href="signup.php" class="w3-bar-item w3-button"> SIGN UP</a>
                 <a href="contact.php" class="w3-bar-item w3-button"> CONTACT</a>
             </div>
@@ -44,7 +44,7 @@
         <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close
             ×</a>
         <a href="index.php" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
-        <a href="merch.php" onclick="w3_close()" class="w3-bar-item w3-button">MERCH</a>
+        <!-- <a href="merch.php" onclick="w3_close()" class="w3-bar-item w3-button">MERCH</a> -->
         <a href="signup.php" onclick="w3_close()" class="w3-bar-item w3-button"> SIGN UP</a>
         <a href="contact.php" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
     </nav>

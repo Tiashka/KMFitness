@@ -22,27 +22,13 @@
         <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
             <i class="fa fa-facebook-official w3-hover-opacity"></i>
             <i class="fa fa-instagram w3-hover-opacity"></i>
-            <i class="fa fa-linkedin w3-hover-opacity"></i>
+            <a href="https://www.linkedin.com/in/kapil-maharaj-742a64218/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
         </div>
     </header>
     <div class="parallax1"></div>
 
     <!-- About Section -->
     <div class="w3-container" style="padding:60px 16px" id="about">
-    <div  style="margin:auto;width:50%;">
-        <h3 class="w3-center">ABOUT ME</h3>
-        <div style="display:flex;justify-content:center">
-            <div style="float:left">
-                <img src="images/IMG_3277.JPG" style="width:200px;height:250px;margin-right:20px"/>
-            </div>
-            <div style="float:left;padding-top:8%">
-                <p>Training for six years, i have learnt all the tools of the trade, i learnt what works 
-                and what doesn't so you dont have to. On top of that being a qualified sports nutritionist means i have the knowledge
-                and understanding of the bodies intricacies and how to leverage it to see those results and break through plateaus. 
-                </p>
-            </div>
-        </div>
-    </div>
     <h3 class="w3-center" style="fpadding:60px 16px 0px 0px">ABOUT US</h3>
         <p class="w3-center w3-large">Key principles of our company</p>
         <div class="w3-row-padding w3-center" style="margin-top:64px">
@@ -65,6 +51,21 @@
                 <p class="w3-large">Obsession</p>
                 <p>Here we are obssessed fitness. There are no shortcuts, we power through, we get those results.
                      You can do anything you set your mind to.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div  style="margin:auto;width:50%;">
+        <h3 class="w3-center">ABOUT ME</h3>
+        <!-- <div style="display:flex;justify-content:center"> -->
+        <div >
+        <div style="display:flex;justify-content:center">
+                <img src="images/IMG_3277.JPG" style="width:200px;height:250px;margin-right:20px"/>
+            </div>
+            <div style="float:left;padding-top:8%">
+                <p>Training for six years, I have learnt all the tools of the trade, I learnt what works 
+                and what doesn't so you dont have to. On top of that being a qualified sports nutritionist means I have the knowledge
+                and understanding of the bodies intricacies and how to leverage it to see those results and break through plateaus. 
                 </p>
             </div>
         </div>
