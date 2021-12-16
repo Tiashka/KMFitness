@@ -38,7 +38,7 @@ emailjs.init("user_zcFz0TN8FHopcJcF0YoYz");
         <div class="w3-display-left w3-text-white" style="padding:48px">
             <span class="w3-jumbo w3-hide-small">Sign Up</span><br>
             <span class="w3-xxlarge w3-hide-large w3-hide-medium">Sign Up</span><br>
-            <span class="w3-large">This form is a means for me to get to know more about you and your fitness goals. Let's get started!</span>
+            <span class="w3-large">This form is a means for me to get to know more about you and your fitness goals, answer as much as you can. <br>Let's get started!</span>
         </div>
 </header>
 

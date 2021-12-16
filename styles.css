@@ -16,7 +16,9 @@ html {
 
 
 /* Full height image header */
-
+a{
+    color: inherit;
+    text-decoration: none;}
 .bgimg-1 {
     background-position: center;
     background-size: cover;
